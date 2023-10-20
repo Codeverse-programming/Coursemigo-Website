@@ -630,10 +630,6 @@ video {
   grid-column: span 6 / span 6;
 }
 
-.m-top-center{
-  margin: 6em auto;
-}
-
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -672,20 +668,16 @@ video {
   margin-top: 4rem;
 }
 
+.mt-24{
+  margin-top: 6rem;
+}
+
 .mt-3{
   margin-top: 0.75rem;
 }
 
 .mt-6{
   margin-top: 1.5rem;
-}
-
-.mt-20{
-  margin-top: 5rem;
-}
-
-.mt-24{
-  margin-top: 6rem;
 }
 
 .block{
@@ -918,12 +910,20 @@ video {
   padding-bottom: 1.5rem;
 }
 
+.pt-24{
+  padding-top: 6rem;
+}
+
 .pt-40{
   padding-top: 10rem;
 }
 
-.pt-24{
-  padding-top: 6rem;
+.pt-0{
+  padding-top: 0px;
+}
+
+.pt-20{
+  padding-top: 5rem;
 }
 
 .text-center{
@@ -988,11 +988,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-yellow-400{
-  --tw-text-opacity: 1;
-  color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
 .shadow{
@@ -1220,6 +1215,18 @@ nav #burger:checked~ul {
     height: 40vh;
   }
 
+  .md\:h-\[50vh\]{
+    height: 50vh;
+  }
+
+  .md\:h-\[60vh\]{
+    height: 60vh;
+  }
+
+  .md\:h-\[\]{
+    height: ;
+  }
+
   .md\:w-full{
     width: 100%;
   }
@@ -1408,11 +1415,6 @@ nav #burger:checked~ul {
 
   .lg\:text-\[1\.2rem\]{
     font-size: 1.2rem;
-  }
-
-  .lg\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .lg\:font-bold{
