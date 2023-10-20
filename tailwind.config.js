@@ -6,9 +6,9 @@ module.exports = {
       backgroundColor: {
         'overlay': 'rgba(0,0,0,0.4)',
       },
-      backgroundImage: {
-        'banner': "url('/dist/img/banner.png')"
-      },
+      // backgroundImage: {
+      //   'banner': "url('')"
+      // },
       backgroundPosition: {
         'center-center': 'center center',
         // 'left-left': '-14rem 0rem'
